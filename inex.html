@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/images//mankind4dev-bg.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="/main.js" defer></script>
+    <title>Todo Task</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="repo-form">
+        <h1>Repository Management</h1>
+        <hr />
+        <form id="item-form">
+          <div class="file">
+            <input type="file" id="picture" accept="image/*" required />
+          </div>
+          <input type="text" id="name" placeholder="Name" required />
+          <select name="category" id="category">
+            <option value="car">Car</option>
+            <option value="bags">Bags</option>
+            <option value="others">Others</option>
+          </select>
+          <button type="submit">Add Item</button>
+        </form>
+      </div>
+
+      <div id="repository" class="display">
+        <h1>To do Lists</h1>
+        <div class="repo-cover">
+          <img src="/images/bg1.png" alt="pic" />
+          <p class="name">name</p>
+          <select name="category" id="category">
+            <option value="car">Car</option>
+            <option value="bags">Bags</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="icons">
+            <i class="fa-solid fa-pencil"></i>
+            <i class="fa-solid fa-trash"></i>
+          </div>
+        </div>
+        <div class="repo-cover">
+          <img
+            src="/images/WhatsApp Image 2024-09-10 at 07.32.59_5acd5481.jpg"
+            alt="pic"
+          />
+          <p class="name">name</p>
+          <select name="category" id="category">
+            <option value="car">Car</option>
+            <option value="bags">Bags</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="icons">
+            <i class="fa-solid fa-pencil"></i>
+            <i class="fa-solid fa-trash"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
